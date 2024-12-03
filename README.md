@@ -10,8 +10,8 @@ Welcome to my **Advent of Code 2024** solutions repository!
 
 ## 🛠️ Languages Used
 
-- **C++**: Most solutions are implemented in C++, emphasizing competitive programming techniques.
-- **Python**: Occasionally used for problems better suited to rapid prototyping or specific algorithms.
+- **C++**: My primary language for solving most puzzles.
+- **Python**: Used for problems requiring arbitrary precision.
 
 ---
 
