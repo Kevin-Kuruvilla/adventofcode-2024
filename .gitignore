@@ -1,0 +1,42 @@
+# Ignore CLion build directories
+cmake-build-*/
+
+# Ignore CMake files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+build.ninja
+.ninja_deps
+.ninja_log
+
+# Ignore Testing directory (if generated)
+Testing/
+
+# Ignore logs and user-specific files
+.idea/
+*.iml
+*.log
+*.ipr
+*.iws
+
+# Ignore executables and object files
+*.o
+*.obj
+*.exe
+*.out
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+
+# Ignore temporary files
+*.tmp
+*.swp
+*.bak
+*.pid
+*.pid.lock
+
+
+# Ignore CMakeLists.txt
+CMakeLists.txt
