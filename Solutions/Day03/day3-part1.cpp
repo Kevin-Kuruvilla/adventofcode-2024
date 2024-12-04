@@ -14,13 +14,16 @@ int mul(const string& str) {
 }
 
 int main() {
-    ifstream inFile("in");
-    string input((istreambuf_iterator<char>(inFile)), istreambuf_iterator<char>());
+    string input;
+    char c;
+    while (scanf("%c", &c) != EOF) {
+        input += c;
+    }
 
     int total = 0;
 
-    for (int length = 8; length <= 12; ++length) {
-        for (int i = 0; i + length <= input.length(); i++) {
+    for (int length = 8; length <= 12; length++) {
+        for (int i = 0; i + length <= input.size(); i++) {
             string consider = input.substr(i, length);
             total += mul(consider);
         }
