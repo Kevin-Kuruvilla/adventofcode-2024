@@ -16,7 +16,6 @@ int countMAS(int i, int j) {
 }
 
 int main() {
-
     string line;
     while (cin >> line) {
         input.push_back(line);
